@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class BinarySeach {
     public static void main(String[] args) {
-        int[] array = {65 , 87 , 89 , 1 , -23 , 98 , 76 , 56 , 64 , 45 , 43 , 21 , -98 , 67};
+        int[] array = {65 , 87 , 89 , 1 , -23 , 98 , 76 , 56 , 64 ,22, 45 , 43 , 21 , -98 , 67};
         int k = 21;
         System.out.println(binatySeatch(array , k));
     }
