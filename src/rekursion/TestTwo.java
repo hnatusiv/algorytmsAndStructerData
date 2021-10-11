@@ -3,8 +3,18 @@ package rekursion;
 public class TestTwo {
     public static void main(String[] args) {
         int n= 5;
-        counter(n);
-        System.out.println(  "Factorial  of number  " + n + " =  "  +fact(n));
+    counter(n);
+       counterN(n);
+
+     System.out.println(  "Factorial  of number  " + n + " =  "  +fact(n));
+    }
+
+    private static void counterN(int n) {
+        System.out.println( "Counter  N ="+ n);
+        if (n<2 )
+            return ;
+        counter(n-1);
+
     }
 
     private static long fact(int n){
